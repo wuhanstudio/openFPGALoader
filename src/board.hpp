@@ -150,6 +150,7 @@ static std::map <std::string, target_board_t> board_list = {
 			0, 0, CABLE_DEFAULT),
 	DFU_BOARD("icebreaker-bitsy", "", "dfu", 0x1d50, 0x6146, 0),
 	JTAG_BOARD("machXO2EVN",      "", "ft2232",     0, 0, CABLE_DEFAULT),
+	JTAG_BOARD("machXO2STEP",     "", "ft232",      0, 0, CABLE_DEFAULT),
 	JTAG_BOARD("machXO3SK",       "", "ft2232",     0, 0, CABLE_DEFAULT),
 	JTAG_BOARD("machXO3EVN",      "", "ft2232",     0, 0, CABLE_DEFAULT),
 	JTAG_BOARD("licheeTang",      "", "anlogicCable", 0, 0, CABLE_DEFAULT),
